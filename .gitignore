@@ -35,6 +35,7 @@
 *.i*86
 *.x86_64
 *.hex
+bin/fbla2025-pf
 
 # Debug files
 *.dSYM/
