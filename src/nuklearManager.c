@@ -1,3 +1,4 @@
+#include "nuklearManager.h"
 #include <SDL2/SDL_mouse.h>
 #include <stdbool.h>
 #include "window.h"
@@ -17,21 +18,35 @@
 struct nk_context* ctx;
 struct nk_font_atlas* atlas;
 
+struct nk_font* fonts[6];
+
 void initNuklear() {
     ctx = nk_sdl_init(getWindow());
     {
         nk_sdl_font_stash_begin(&atlas);
-        struct nk_font *termin = nk_font_atlas_add_from_file(atlas, res("fonts/Times.ttf"), 24, 0);
-        termin->config->pixel_snap = true;
-        termin->config->oversample_v = 4;
-        termin->config->oversample_h = 4;
+        //reg24
+        fonts[0] = nk_font_atlas_add_from_file(atlas, res("fonts/ClearSans-Regular.ttf"), 24, 0);
+        //bold24
+        fonts[1] = nk_font_atlas_add_from_file(atlas, res("fonts/ClearSans-Bold.ttf"), 24, 0);
+        //itl24
+        fonts[2] = nk_font_atlas_add_from_file(atlas, res("fonts/ClearSans-Italic.ttf"), 24, 0);
+        //reg30
+        fonts[3] = nk_font_atlas_add_from_file(atlas, res("fonts/ClearSans-Regular.ttf"), 30, 0);
+        //bold30
+        fonts[4] = nk_font_atlas_add_from_file(atlas, res("fonts/ClearSans-Bold.ttf"), 30, 0);
+        //itl30
+        fonts[5] = nk_font_atlas_add_from_file(atlas, res("fonts/ClearSans-Italic.ttf"), 30, 0);
         nk_sdl_font_stash_end();
-        nk_style_set_font(ctx, &termin->handle);
+        nk_style_set_font(ctx, &fonts[0]->handle);
     }
 }
 
 void renderNuklear() {
     nk_sdl_render(NK_ANTI_ALIASING_OFF, MAX_VERTEX_BUFFER, MAX_ELEMENT_BUFFER);
+}
+
+struct nk_font** getFont(int font) {
+    return &fonts[font];
 }
 
 struct nk_context* getContext() {

@@ -107,3 +107,18 @@ long getFileSize(const char* path) {
     fclose(fptr);
     return length;
 }
+
+void writeStringToFile(const char* path, char* contents) {
+    FILE *fptr = fopen(path, "w");
+    if (!fptr) {
+        printf("failed to load file %s\n", path);
+        exit(1);
+    }
+    
+    if (fputs(contents, fptr) == EOF) {
+        fclose(fptr);
+        printf("failed to write to file %s", path);
+    }
+
+    fclose(fptr);
+}

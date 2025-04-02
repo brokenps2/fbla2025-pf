@@ -9,5 +9,7 @@ char* getFileSrc(const char* path);
 
 long getFileSize(const char* path);
 
+void writeStringToFile(const char* path, char* contents);
+
 long getVtShaderLen();
 long getFrShaderLen();
