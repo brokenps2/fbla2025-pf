@@ -1,0 +1,9 @@
+# ninja log v6
+26	1810	1744342883545373316	CMakeFiles/fbla25-finance.dir/mainwindow.cpp.o	9081532eebc81293
+162	1493	1744320728481832237	CMakeFiles/fbla25-finance.dir/fbla25-finance_autogen/mocs_compilation.cpp.o	fe8a53757011ee12
+2	26	1744342883522372973	/home/eli/fbla25-finance/build/Desktop-Debug/fbla25-finance_autogen/mocs_compilation.cpp	3fbfea7903922112
+1810	1983	1744342885329399803	fbla25-finance	e86ad54a34d6e40e
+2	26	1744342883522372973	fbla25-finance_autogen/mocs_compilation.cpp	3fbfea7903922112
+162	1484	1744320728482606345	CMakeFiles/fbla25-finance.dir/main.cpp.o	46631abf020b996c
+2	26	1744342883522372973	/home/eli/fbla25-finance/build/Desktop-Debug/fbla25-finance_autogen/timestamp	3fbfea7903922112
+2	26	1744342883522372973	fbla25-finance_autogen/timestamp	3fbfea7903922112

@@ -1,0 +1,9 @@
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/fbla25-finance.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/install.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/fbla25-finance_autogen_timestamp_deps.dir
+/home/eli/fbla25-finance/build/Desktop-Debug/CMakeFiles/fbla25-finance_autogen.dir
