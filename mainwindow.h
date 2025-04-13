@@ -15,6 +15,14 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    void setFinalBalance();
+    void addRowToBudgetTable();
+    void delRowFromBudgetTable();
+    void saveTableToCSV(const QString& filePath);
+    void loadTableFromCSV(const QString& filePath);
+    void loadTableFromBlankCSV();
+    void saveTableWithDialog();
+    void loadTableWithDialog();
     ~MainWindow();
 
 private:

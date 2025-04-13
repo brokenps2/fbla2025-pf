@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5aca255dfdc6c2492a60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fbla25-finance",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fbla25-finance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fbla25-finance-Debug-cd1ef2ce81367f5d2246.json",
+					"name" : "fbla25-finance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fbla25-finance_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fbla25-finance_autogen-Debug-247c7c930ffc642e5848.json",
+					"name" : "fbla25-finance_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fbla25-finance_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fbla25-finance_autogen_timestamp_deps-Debug-b787836faadd86a78316.json",
+					"name" : "fbla25-finance_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eli/fbla25-finance/build/Desktop-Debug",
+		"source" : "/home/eli/fbla25-finance"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

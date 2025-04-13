@@ -23,7 +23,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(fbla25-finance
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        wizard.h wizard.cpp wizard.ui
+        welcomedialog.h welcomedialog.cpp welcomedialog.ui
+
+
+
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET fbla25-finance APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

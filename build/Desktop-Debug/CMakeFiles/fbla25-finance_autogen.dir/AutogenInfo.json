@@ -488,9 +488,9 @@
 			null
 		],
 		[
-			"/home/eli/fbla25-finance/wizard.h",
+			"/home/eli/fbla25-finance/welcomedialog.h",
 			"MU",
-			"EWIEGA46WW/moc_wizard.cpp",
+			"EWIEGA46WW/moc_welcomedialog.cpp",
 			null
 		]
 	],
@@ -555,7 +555,7 @@
 	[
 		[ "/home/eli/fbla25-finance/main.cpp", "MU", null ],
 		[ "/home/eli/fbla25-finance/mainwindow.cpp", "MU", null ],
-		[ "/home/eli/fbla25-finance/wizard.cpp", "MU", null ]
+		[ "/home/eli/fbla25-finance/welcomedialog.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

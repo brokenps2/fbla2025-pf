@@ -76,10 +76,10 @@ build CMakeFiles/fbla25-finance.dir/mainwindow.cpp.o: CXX_COMPILER__fbla25-finan
   OBJECT_DIR = CMakeFiles/fbla25-finance.dir
   OBJECT_FILE_DIR = CMakeFiles/fbla25-finance.dir
 
-build CMakeFiles/fbla25-finance.dir/wizard.cpp.o: CXX_COMPILER__fbla25-finance_unscanned_Debug /home/eli/fbla25-finance/wizard.cpp || cmake_object_order_depends_target_fbla25-finance
+build CMakeFiles/fbla25-finance.dir/welcomedialog.cpp.o: CXX_COMPILER__fbla25-finance_unscanned_Debug /home/eli/fbla25-finance/welcomedialog.cpp || cmake_object_order_depends_target_fbla25-finance
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/fbla25-finance.dir/wizard.cpp.o.d
+  DEP_FILE = CMakeFiles/fbla25-finance.dir/welcomedialog.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -mno-direct-extern-access
   INCLUDES = -I/home/eli/fbla25-finance/build/Desktop-Debug/fbla25-finance_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles/fbla25-finance.dir
@@ -93,7 +93,7 @@ build CMakeFiles/fbla25-finance.dir/wizard.cpp.o: CXX_COMPILER__fbla25-finance_u
 #############################################
 # Link the executable fbla25-finance
 
-build fbla25-finance: CXX_EXECUTABLE_LINKER__fbla25-finance_Debug CMakeFiles/fbla25-finance.dir/fbla25-finance_autogen/mocs_compilation.cpp.o CMakeFiles/fbla25-finance.dir/main.cpp.o CMakeFiles/fbla25-finance.dir/mainwindow.cpp.o CMakeFiles/fbla25-finance.dir/wizard.cpp.o | /usr/lib/libQt6Widgets.so.6.9.0 /usr/lib/libQt6Gui.so.6.9.0 /usr/lib/libGLX.so /usr/lib/libOpenGL.so /usr/lib/libQt6Core.so.6.9.0 || fbla25-finance_autogen fbla25-finance_autogen_timestamp_deps
+build fbla25-finance: CXX_EXECUTABLE_LINKER__fbla25-finance_Debug CMakeFiles/fbla25-finance.dir/fbla25-finance_autogen/mocs_compilation.cpp.o CMakeFiles/fbla25-finance.dir/main.cpp.o CMakeFiles/fbla25-finance.dir/mainwindow.cpp.o CMakeFiles/fbla25-finance.dir/welcomedialog.cpp.o | /usr/lib/libQt6Widgets.so.6.9.0 /usr/lib/libQt6Gui.so.6.9.0 /usr/lib/libGLX.so /usr/lib/libOpenGL.so /usr/lib/libQt6Core.so.6.9.0 || fbla25-finance_autogen fbla25-finance_autogen_timestamp_deps
   CONFIG = Debug
   DEP_FILE = CMakeFiles/fbla25-finance.dir/link.d
   FLAGS = -DQT_QML_DEBUG -g
@@ -181,7 +181,7 @@ build fbla25-finance_autogen_timestamp_deps: phony
 #############################################
 # Utility command for fbla25-finance_autogen
 
-build fbla25-finance_autogen: phony CMakeFiles/fbla25-finance_autogen fbla25-finance_autogen/include/ui_mainwindow.h fbla25-finance_autogen/include/ui_wizard.h fbla25-finance_autogen/timestamp fbla25-finance_autogen/mocs_compilation.cpp fbla25-finance_autogen_timestamp_deps
+build fbla25-finance_autogen: phony CMakeFiles/fbla25-finance_autogen fbla25-finance_autogen/include/ui_mainwindow.h fbla25-finance_autogen/include/ui_welcomedialog.h fbla25-finance_autogen/timestamp fbla25-finance_autogen/mocs_compilation.cpp fbla25-finance_autogen_timestamp_deps
 
 
 #############################################
@@ -198,7 +198,7 @@ build fbla25-finance_autogen/timestamp fbla25-finance_autogen/mocs_compilation.c
 #############################################
 # Phony custom command for CMakeFiles/fbla25-finance_autogen
 
-build CMakeFiles/fbla25-finance_autogen fbla25-finance_autogen/include/ui_mainwindow.h fbla25-finance_autogen/include/ui_wizard.h | ${cmake_ninja_workdir}CMakeFiles/fbla25-finance_autogen ${cmake_ninja_workdir}fbla25-finance_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}fbla25-finance_autogen/include/ui_wizard.h: phony fbla25-finance_autogen/timestamp || fbla25-finance_autogen_timestamp_deps
+build CMakeFiles/fbla25-finance_autogen fbla25-finance_autogen/include/ui_mainwindow.h fbla25-finance_autogen/include/ui_welcomedialog.h | ${cmake_ninja_workdir}CMakeFiles/fbla25-finance_autogen ${cmake_ninja_workdir}fbla25-finance_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}fbla25-finance_autogen/include/ui_welcomedialog.h: phony fbla25-finance_autogen/timestamp || fbla25-finance_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
